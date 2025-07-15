@@ -5,7 +5,7 @@
     font-family: 'Arial', 'Helvetica', sans-serif;
 }
 
-
+/* Struttura dell'header */
 header {
     background-color: #fff;
     height: 120px;
@@ -29,6 +29,8 @@ header {
     font-size: 4rem;
 }
 
+
+/* Struttura del main */
 main {
     background-color: #F6F8FA;
     min-height: 100vh;
@@ -43,6 +45,7 @@ main .container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
+/* Definiamo i bottoni */
 .bottoni .task {
     background-color: #45AEF3;
     border: 0;
@@ -73,6 +76,7 @@ main .container {
 
 }
 
+/* Aggiunge una piccola "animazione" quando si passa il mouse sopra il bottone, ingrandendolo di poco */
 .bottoni .task:hover {
     transform: scale(1.05);
 }
@@ -94,14 +98,17 @@ main .container {
     font-weight: bold;
 }
 
+/* Imposta il colore dell'svg check, quindi verde */
 .check {
     filter: invert(75%) sepia(31%) saturate(4563%) hue-rotate(56deg) brightness(98%) contrast(86%);
 }
 
+/* Imposta il colore dell'svg cross, quindi rosso */
 .cross {
     filter: invert(24%) sepia(84%) saturate(2085%) hue-rotate(342deg) brightness(84%) contrast(109%);
 }
 
+/* Cominciamo a definire la lista, leviamo il "pallino" prima della lista, e impostiamo un po di spazio */
 .task-list {
     list-style: none;
     padding: 0 30px 30px;
@@ -114,6 +121,9 @@ main .container {
     margin-bottom: 20px;
 }
 
+
+/* Definiamo i vari TAG della checklist */
+/* Impostiamo il colore, 6px di spazio sopra e sotto e 10 a destra e sinistra, stondiamo i bordi e diamo il colore del testo bianco */
 .task-list .editorial {
     background-color: #49AAE5;
     padding: 6px 10px 6px 10px;
