@@ -27,3 +27,47 @@ header {
 .header h1 {
     font-size: 4rem;
 }
+
+main {
+    background-color: #F6F8FA;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+main .container {
+    background-color: #fff;
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.bottoni .task {
+    background-color: #45AEF3;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20x;
+    padding: 10px;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bottoni .section {
+    background-color: #FFFFFF;
+    border: 1px solid #CFD3CF;
+    border-radius: 5px;
+    font-size: 20x;
+    padding: 10px;
+    color: #CFD3CF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.bottoni .task:hover {
+    transform: scale(1.05);
+}
+
+.bottoni .section:hover {
+    transform: scale(1.05);
+}
