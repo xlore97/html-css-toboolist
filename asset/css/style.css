@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Arial', 'Helvetica', sans-serif;
 }
 
 
@@ -82,4 +83,75 @@ main .container {
 
 .checklist {
     padding: 0px 30px 30px 30px;
+}
+
+.newtask h3 {
+    font-size: 1.5rem;
+}
+
+.newtask .downarrow {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.check {
+    filter: invert(75%) sepia(31%) saturate(4563%) hue-rotate(56deg) brightness(98%) contrast(86%);
+}
+
+.cross {
+    filter: invert(24%) sepia(84%) saturate(2085%) hue-rotate(342deg) brightness(84%) contrast(109%);
+}
+
+.task-list {
+    list-style: none;
+    padding: 0 30px 30px;
+}
+
+.task-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.task-list .editorial {
+    background-color: #49AAE5;
+    padding: 6px 10px 6px 10px;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.task-list .goal {
+    background-color: #9A74E8;
+    padding: 6px 10px 6px 10px;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.task-list .recruiting {
+    background-color: #64C1A9;
+    padding: 6px 10px 6px 10px;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.task-list .mobile {
+    background-color: #F0A037;
+    padding: 6px 10px 6px 10px;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.task-list .website {
+    background-color: #D8659E;
+    padding: 6px 10px 6px 10px;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.task-list .sales {
+    background-color: #ADC922;
+    padding: 6px 10px 6px 10px;
+    border-radius: 12px;
+    color: #fff;
 }
