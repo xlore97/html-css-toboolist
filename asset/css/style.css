@@ -38,7 +38,6 @@ main .container {
     background-color: #fff;
     width: 60%;
     margin: 0 auto;
-    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
@@ -51,6 +50,15 @@ main .container {
     padding: 10px;
     color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bottoni {
+    padding: 20px 0;
+    border-bottom: 7px solid #F9F9F9;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+    padding: 30px;
 }
 
 .bottoni .section {
@@ -70,4 +78,8 @@ main .container {
 
 .bottoni .section:hover {
     transform: scale(1.05);
+}
+
+.checklist {
+    padding: 0px 30px 30px 30px;
 }
