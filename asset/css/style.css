@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+header {
+    background-color: #fff;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+}
+
+.header h1 {
+    font-size: 4rem;
+}
